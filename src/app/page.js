@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-      <div className="relative text-[white] ">
+      <div className="text-[white] z-20 ">
         <section className="min-h-screen hero w-[100%] ">
           <div className="h-screen w-[100%] bg-gradient-to-b from-[#4e4e94] from-10% via-transparent via-80% to-[#110e24] to-100% pt-20 flex justify-center items-center">
             <div className="w-[650px] px-8 md:px-0 ">
