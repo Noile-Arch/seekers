@@ -8,7 +8,7 @@ function Navbar() {
   const [active, setActive] = useState(false);
   return (
     <>
-      <div className="w-[100%] h-20  flex justify-center items-center bg-transparent z-50 absolute top-0">
+      <div className="w-[100%] h-20  flex justify-center items-center bg-[#474b8f] z-50 absolute top-0">
         <div className="pt-8 flex justify-between items-center gap-40 text-[white]">
           <Link href="/">
             <div className="flex flex-col justify-start items-start">
