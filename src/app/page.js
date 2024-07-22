@@ -6,16 +6,16 @@ export default function Home() {
   return (
     <>
     <Navbar/>
-      <div className="text-[white] z-20 ">
+      <div className="text-[white] w-full absolute z-20 ">
         <section className="min-h-screen hero w-[100%] ">
           <div className="h-screen w-[100%] bg-gradient-to-b from-[#4e4e94] from-10% via-transparent via-80% to-[#110e24] to-100% pt-20 flex justify-center items-center">
-            <div className="w-[650px] px-8 md:px-0 ">
-              <div className="flex lg:justify-start justify-center items-center gap-3  ">
+            <div className="w-[650px] px-8 md:px-0 flex flex-col lg:justify-start justify-center items-center  ">
+              <div className="w-full bg-white flex justify-start items-center gap-3  ">
                 <h1 className="w-[40px] bg-[gold] h-[2px]"></h1>
                 <h1 className="text-[gold] text-[10px]">WELCOME</h1>
               </div>
 
-              <h1 className=" my-4 md:text-[60px] text-[50px] text-transparent bg-clip-text bg-gradient-to-r from-[#ff3c00] via-[#fce303] to-[#00e1ff]">
+              <h1 className=" my-4 md:text-[60px] lg:text-[50px] text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-[#ff3c00] via-[#fce303] to-[#00e1ff]">
                 Explore New Horizons & Discover The World
               </h1>
               <h2 className="my-4 text-[white] md:mt-[1px] mt-2">
@@ -294,8 +294,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <Footer/>
       </div>
-      <Footer/>
+
     </>
   );
 }
